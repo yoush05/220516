@@ -54,7 +54,8 @@ void loop() {
   lcd.setCursor(0,0);
   lcd.print("Filter : ");
   lcd.print(filter_Data);
-
+엘씨디 스크린에 필터 데이터를 출력한다. 이 데이터는 처음에 음수값을 가지다가 나중에는 양수값을 가진다. 
+나는 처음에 계속 음수값만 나와서 당황했었다. 어떤식으로 고쳐졌는지는 모르겠는데 어쩄든 고쳐졌다. 
 
 if (filter_Data <= 30)
 
